@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Asmi Jain — Software Engineer</title>
+<meta name="description" content="Asmi Jain — Software Engineer building enterprise desktop systems and full-stack web applications.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="grain"></div>
+
+<!-- ============ NAV ============ -->
+<nav class="nav" id="nav">
+  <a href="#top" class="nav-mark">AJ</a>
+  <div class="nav-links">
+    <a href="#work">Experience</a>
+    <a href="#projects">Projects</a>
+    <a href="#skills">Skills</a>
+    <a href="#education">Education</a>
+    <a href="#achievements">Achievements</a>
+    <a href="#contact">Contact</a>
+  </div>
+  <a href="assets/Asmi_Jain_Resume_ATS.pdf" class="nav-resume" target="_blank" rel="noopener">Resume ↗</a>
+</nav>
+
+<!-- ============ HERO ============ -->
+<header class="hero" id="top">
+  <div class="hero-inner">
+    <p class="eyebrow">Software Engineer — Bengaluru, India</p>
+    <h1 class="hero-title">
+      Software Engineer.<br>
+    </h1>
+    <p class="hero-sub">
+      I build enterprise desktop software that doesn't freeze under load, and full-stack
+      web applications that ship — not tutorials. SIH 2022 National Winner. Immediate joiner.
+    </p>
+    <div class="hero-ctas">
+      <a href="#projects" class="btn btn-primary">See the work</a>
+      <a href="mailto:asmijain3014@gmail.com" class="btn btn-ghost">Get in touch</a>
+    </div>
+  </div>
+
+  <div class="hero-diagram" aria-hidden="true">
+    <svg viewBox="0 0 520 420" class="branch-svg">
+      <!-- connecting paths -->
+      <path class="branch-path p1" d="M 70 210 C 150 210, 150 110, 230 110" />
+      <path class="branch-path p2" d="M 70 210 C 150 210, 150 210, 230 210" />
+      <path class="branch-path p3" d="M 70 210 C 150 210, 150 310, 230 310" />
+      <path class="branch-path p4" d="M 230 110 C 300 110, 300 80, 370 80" />
+      <path class="branch-path p5" d="M 230 210 C 300 210, 300 210, 370 210" />
+      <path class="branch-path p6" d="M 230 310 C 300 310, 300 340, 370 340" />
+
+      <!-- root node -->
+      <g class="node node-root">
+        <circle cx="70" cy="210" r="9"/>
+      </g>
+      <text x="70" y="245" class="node-label root-label">SDE</text>
+
+      <!-- mid nodes -->
+      <g class="node node-mid"><circle cx="230" cy="110" r="7"/></g>
+      <text x="230" y="90" class="node-label">Desktop Systems</text>
+
+      <g class="node node-mid"><circle cx="230" cy="210" r="7"/></g>
+      <text x="230" y="240" class="node-label">Backend &amp; APIs</text>
+
+      <g class="node node-mid"><circle cx="230" cy="310" r="7"/></g>
+      <text x="230" y="340" class="node-label">Full-Stack Projects</text>
+
+      <!-- leaf nodes -->
+      <g class="node node-leaf"><circle cx="370" cy="80" r="5"/></g>
+      <text x="385" y="84" class="node-label leaf-label">C# / WPF</text>
+
+      <g class="node node-leaf"><circle cx="370" cy="210" r="5"/></g>
+      <text x="385" y="214" class="node-label leaf-label">FastAPI</text>
+
+      <g class="node node-leaf"><circle cx="370" cy="340" r="5"/></g>
+      <text x="385" y="344" class="node-label leaf-label">React &amp GenAI</text>
+    </svg>
+  </div>
+</header>
+
+<main>
+
+<!-- ============ WORK EXPERIENCE ============ -->
+<section class="section" id="work">
+  <div class="section-head">
+    <p class="eyebrow eyebrow-dark">01 — Where I've worked</p>
+    <h2 class="section-title">Production systems, under real constraints.</h2>
+  </div>
+
+  <div class="schematic">
+    <div class="schematic-row">
+      <div class="schematic-meta">
+        <h3>Software Engineer</h3>
+        <p class="meta-sub">Celstream Technologies</p>
+        <p class="meta-date">Aug 2024 — May 2026 · Bengaluru</p>
+      </div>
+      <div class="schematic-detail">
+        <ul class="detail-list">
+          <li><span class="tag-mono">~85%</span> reduction in document-processing time via C# multithreading (TPL) and asynchronous data binding.</li>
+          <li>Engineered dynamic batch loading for WPF DataGrid, eliminating UI freezes across <span class="tag-mono">1,000+ row</span> enterprise datasets.</li>
+          <li>Implemented file-locking and retry mechanisms for safe concurrent document processing, preventing data corruption.</li>
+          <li>Built MVVM-based WPF features — responsive layouts, reusable user controls, event-driven interactions.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="schematic-divider"></div>
+
+    <div class="schematic-row">
+      <div class="schematic-meta">
+        <h3>Project Trainee</h3>
+        <p class="meta-sub">Celstream Technologies</p>
+        <p class="meta-date">Feb 2024 — Aug 2024 · Bengaluru</p>
+      </div>
+      <div class="schematic-detail">
+        <ul class="detail-list">
+          <li>Onboarded onto a <span class="tag-mono">100K+ line</span> C++/C#/WPF production codebase; shipped two features under senior engineer guidance.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PROJECTS ============ -->
+<section class="section section-dark" id="projects">
+  <div class="section-head">
+    <p class="eyebrow">02 — What I've built</p>
+    <h2 class="section-title section-title-light">Shipped, not staged.</h2>
+  </div>
+
+  <div class="project-card project-card-feature">
+    <div class="project-top">
+      <div>
+        <p class="project-kicker">Personal project</p>
+        <h3 class="project-name">Make Your Own Adventure Story AI</h3>
+      </div>
+      <div class="project-links">
+        <a href="https://adventure-story-ai-beta.vercel.app" target="_blank" rel="noopener" class="link-pill">Live demo ↗</a>
+        <a href="https://github.com/asmijain/Make-Your-Own-Adventure-Story-AI" target="_blank" rel="noopener" class="link-pill">Code ↗</a>
+      </div>
+    </div>
+    <p class="project-desc">
+      A full-stack web platform with branching, choice-driven narratives — built end-to-end:
+      React frontend, FastAPI backend, JWT authentication, PostgreSQL persistence, and a
+      deployed production pipeline. Story content is generated dynamically via an LLM API.
+    </p>
+    <div class="project-stack">
+      <span>React</span><span>FastAPI</span><span>JWT</span><span>PostgreSQL</span><span>SQLAlchemy</span><span>LangChain</span><span>Vercel</span><span>Render</span>
+    </div>
+    <ul class="detail-list detail-list-light">
+      <li><strong>Backend &amp; APIs</strong> — RESTful FastAPI + SQLAlchemy architecture managing user accounts, story generation, persistence, and retrieval.</li>
+      <li><strong>Authentication</strong> — Implemented JWT-based authentication with bcrypt password hashing, user registration, login, and protected routes via dependency injection.</li>
+      <li><strong>Frontend &amp; UI</strong> — Built the React UI end-to-end with login/register flows, API integration, and responsive interactions.</li>
+      <li><strong>Dynamic content generation</strong> — Integrated an LLM API (via LangChain) with structured prompt engineering and Pydantic-validated responses to drive branching story logic.</li>
+      <li><strong>Architecture</strong> — Implemented Pydantic validation and recursive story branching for reliable, structured AI responses.</li>
+    </ul>
+  </div>
+
+  <div class="project-grid">
+    <div class="project-card">
+      <p class="project-kicker">SIH 2022 — National Winner</p>
+      <h3 class="project-name project-name-sm">Moving Vehicle Registration Plate Detection</h3>
+      <p class="project-desc">
+        Real-time ANPR system for coal mine truck tracking, built for Smart India
+        Hackathon 2022 — won nationally against 1,000+ teams, Ministry of Coal, Govt. of India.
+      </p>
+      <div class="project-stack">
+        <span>YOLOv3</span><span>TensorFlow</span><span>OpenCV</span><span>Tesseract OCR</span><span>Firebase</span>
+      </div>
+      <ul class="detail-list detail-list-light">
+        <li><strong>AI Detection Pipeline</strong> — Developed a real-time ANPR system for coal mines using YOLOv3 to detect moving trucks and Tesseract OCR with OpenCV image preprocessing to accurately extract registration numbers under varying lighting and motion conditions, won nationally against 1,000+ teams.</li>
+        <li><strong>Operational Analytics</strong> — Built a Firebase Realtime Database pipeline to record truck movement events and compute operational KPIs, including loader waiting time, weighing time, and travel time for bottleneck analysis.</li>
+        <li><strong>Model Development</strong> — Fine-tuned YOLOv3 on a custom dataset of Indian commercial vehicles and implemented TensorFlow-based preprocessing and evaluation pipelines to improve detection and OCR accuracy.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SKILLS ============ -->
+<section class="section" id="skills">
+  <div class="section-head">
+    <p class="eyebrow eyebrow-dark">03 — Toolkit</p>
+    <h2 class="section-title">Comfortable across the stack.</h2>
+  </div>
+
+  <div class="skills-grid">
+    <div class="skill-group">
+      <p class="skill-label">Languages</p>
+      <p class="skill-items">C#, C++, Python, Java, JavaScript, SQL</p>
+    </div>
+    <div class="skill-group">
+      <p class="skill-label">Backend</p>
+      <p class="skill-items">RESTful APIs, FastAPI, JWT Authentication, SQLAlchemy, PostgreSQL</p>
+    </div>
+    <div class="skill-group">
+      <p class="skill-label">Frontend</p>
+      <p class="skill-items">React.js, HTML/CSS</p>
+    </div>
+    <div class="skill-group">
+      <p class="skill-label">Desktop Frameworks</p>
+      <p class="skill-items">WPF, .NET, MVVM</p>
+    </div>
+    <div class="skill-group">
+      <p class="skill-label">Core CS</p>
+      <p class="skill-items">DSA, OOP, OS, DBMS, Networks, System Design</p>
+    </div>
+    <div class="skill-group">
+      <p class="skill-label">Tools &amp; Cloud</p>
+      <p class="skill-items">Git, GitHub, Docker, Firebase, Vercel, Render</p>
+    </div>
+    <div class="skill-group">
+      <p class="skill-label">AI &amp; Data</p>
+      <p class="skill-items">LangChain, Groq API, TensorFlow, OpenCV, YOLOv3</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ EDUCATION============ -->
+<section class="section section-dark" id="education">
+  <div class="section-head">
+    <p class="eyebrow eyebrow-dark">04 — Education</p>
+    <h2 class="section-title section-title-light">Foundations.</h2>
+  </div>
+ 
+  <div class="schematic">
+    <div class="schematic-row edu-row">
+      <div class="schematic-meta">
+        <h3>B.E. Computer Science &amp; Engineering</h3>
+        <p class="meta-sub">BNM Institute of Technology, Bangalore</p>
+        <p class="meta-date">2021 — 2024</p>
+      </div>
+      <div class="edu-stat">
+        <span class="tag-mono">CGPA 8.5/10</span>
+      </div>
+    </div>
+ 
+    <div class="schematic-divider"></div>
+ 
+    <div class="schematic-row edu-row">
+      <div class="schematic-meta">
+        <h3>Std. XII — Science</h3>
+        <p class="meta-sub">Sophia Girls Secondary School, Bhilwara</p>
+        <p class="meta-date">2018 — 2020</p>
+      </div>
+      <div class="edu-stat">
+        <span class="tag-mono">90% aggregate</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ ACHIEVEMENTS ============ -->
+<section class="section" id="achievements">
+  <div class="section-head">
+    <p class="eyebrow">05 — Recognition</p>
+    <h2 class="section-title">Proof, not promises.</h2>
+  </div>
+
+  <div class="project-card project-card-feature">
+    <div class="project-top">
+      <div>
+        <h3 class="project-name">SIH 2022 — National Winner</h3>
+        <p class="project-kicker">Ministry of Coal, Govt. of India</p>
+      </div>
+    </div>
+    <p class="project-desc">
+      Won nationally against 1,000+ teams with a real-time ANPR truck-tracking system for coal mine logistics.
+    </p>
+  </div>
+
+  <div class="project-grid">
+    <div class="project-card">
+      <div>
+        <h3 class="project-name">Hackathon 5.0 — Runner-Up</h3>
+        <p class="project-kicker">IEEE-BNMIT Student Branch, 2021</p>
+        <p class="project-desc">
+          Built a mental health support application.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="project-grid">
+    <div class="project-card">
+      <div>
+        <h3 class="project-name">Secretary, Student Council</h3>
+        <p class="project-kicker">12th Standard</p>
+        <p class="project-desc">
+          Led a 12-member team across student governance and events.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CONTACT ============ -->
+<section class="section section-dark contact" id="contact">
+  <div>
+    <p class="eyebrow">06 — Let's talk</p>
+    <h2 class="contact-title">Actively looking.<br>Immediate joiner.</h2>
+    <p class="contact-sub">SDE · Backend · Full-Stack roles at product companies.</p>
+  </div>
+  <div class="contact-links">
+    <a href="mailto:asmijain3014@gmail.com" class="contact-link">asmijain3014@gmail.com</a>
+    <a href="tel:+919413816361" class="contact-link">+91 94138 16361</a>
+  </div>
+  <div class="contact-social">
+    <a href="https://www.linkedin.com/in/asmi-jain-71a3ba212" target="_blank" rel="noopener">LinkedIn</a>
+    <a href="https://github.com/asmijain" target="_blank" rel="noopener">GitHub</a>
+  </div>
+</section>
+
+</main>
+
+<footer class="footer">
+  <p>Designed &amp; built by Asmi Jain.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
